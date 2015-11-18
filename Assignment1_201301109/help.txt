@@ -1,0 +1,27 @@
+Carrom
+
+This is a simulation of two player carrom game. Each person takes a turn alternatively to try to pocket his/her colour of coins using the striker within a fixed time interval (~30 sec). The striker is kept on the base line of the person's side and can be moved left or right. It is then given direction and magnitude and hit. Player one has to pocket white coins, player two black. Red Queen can be pocketed by anybody.
+
+Rules - 
+
+1. Pocketing your own colour of coins grants 10 points.
+2. Pocketing your other's colour of coins takes away 5 points.
+3. Pocketing queen grants 50 points.
+4. Each second wasted costs 1 point.
+5. A turn lasts 30 sec. The the control is shifted to other person.
+6. After successful completion of your turn, control is shifted to the other person.
+7. Game is over when one person pockets all the coins of his/her colour. The one with maximum points wins.
+
+Controls - 
+
+Keyboard - 
+
+1. Use a to rotate the direction by anticlockwise, and c for clockwise.
+2. Up and down arrow keys to increase/decrease the speed (indiccaed by a white marker in the speed bar on the right of the board).
+3. Left and right arrow keys to shift the striker sideways.
+4. Space to hit the striker after setting the speed, direction, position.
+
+Mouse - 
+
+1. Right click to drag the mouse to required position on base line.
+2. Left click to hit the striker (position of mouse relative to striker denotes the speed and the direction);

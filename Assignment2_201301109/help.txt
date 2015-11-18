@@ -1,0 +1,33 @@
+Hit the top on the target
+
+[GamePlay]
+You are supposed to shoot the top in front of you towards the target on the opposite wall.
+
+Every successful try givs you 10 points and every unsuccessful try takes away 1 point.
+
+An unsuccessful try means when the top falls off the edge of the terrain.
+
+The game starts with 20 points.
+
+Score is printed on the terminal.
+
+You have to give some initial direction and speed on the terrain and further positions/velocities are decided according to rules of physics.
+
+Hitting the target or the top falling repositions the top and target at random places.
+
+There are 5 Camera view
+
+[Camera Views]
+1) Player View: A static view from player's head position.
+2) Top View: A view of the world from the top of the top.
+3) Overhead View: The entire world from the top
+4) Follow Cam: A View directly following the top from exactly 10 units behind
+5) Rotating View: A view of the entire field with the camera rotating about the center at a constant speed
+
+[Controls]
+Use w and s keys to change speed of throw
+Use a and c keys to change direction of throw (anticlockwise and clockwise)
+Use spacebar to initiate the launch
+ESC/q/Q to quit 
+
+HAVE FUN!
